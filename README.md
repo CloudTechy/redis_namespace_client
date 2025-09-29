@@ -1,7 +1,3 @@
-
-
-
-````markdown
 # redis-namespace-client
 
 A simple Redis client for Python with support for:
