@@ -17,7 +17,7 @@ pip install redis-namespace-client
 ## Usage
 
 ```python
-from redis_namespace_client import redis_set, redis_get
+from redis_namespace_client import redis_set, redis_get, redis_delete, redis_key_exists, list_all_keys
 
 # Set a key
 redis_set("mykey", {"foo": "bar"}, ex=3600)
